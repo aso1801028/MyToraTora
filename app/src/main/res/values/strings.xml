@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyToraTora</string>
+    <string name="MainText">虎虎ー虎ー虎</string>
+    <string name="Maintext">トラとーら、とーらトラ</string>
+    <string name="Result">wwwin</string>
+    <string name="result_win">俺の勝ち！</string>
+    <string name="img_description">image2</string>
+    <string name="result_drow">引き分けーー!!!</string>
+    <string name="textA">下の画像も切り替わります</string>
+    <string name="txtNo">未完成</string>
+    <string name="result_lose">YourWin!!!</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/katoukiyomasaButton"
+        android:layout_width="@dimen/katoukiyomasaButtonW"
+        android:layout_height="@dimen/katoukiyomasaButtonH"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainT"
+        app:srcCompat="@drawable/katoukiyomasa" />
+
+    <ImageButton
+        android:id="@+id/SBBAButton"
+        android:layout_width="@dimen/SBBAButtonW"
+        android:layout_height="@dimen/SBBAButtonH"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toEndOf="@+id/katoukiyomasaButton"
+        app:layout_constraintTop_toTopOf="@+id/katoukiyomasaButton"
+        app:srcCompat="@drawable/bba" />
+
+    <ImageButton
+        android:id="@+id/ToraButton"
+        android:layout_width="@dimen/ToraButtonW"
+        android:layout_height="@dimen/ToraButtonH"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/katoukiyomasaButton"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/katoukiyomasaButton"
+        app:srcCompat="@drawable/tora" />
+
+    <TextView
+        android:id="@+id/MainT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Maintext"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/ComHandW"
+        android:layout_height="@dimen/ComHandW"
+        app:layout_constraintBottom_toTopOf="@+id/MainT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/com" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

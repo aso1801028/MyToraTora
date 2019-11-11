@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ToraButtonW">100dp</dimen>
+    <dimen name="ToraButtonH">100dp</dimen>
+    <dimen name="SBBAButtonW">100dp</dimen>
+    <dimen name="SBBAButtonH">100dp</dimen>
+    <dimen name="katoukiyomasaButtonW">100dp</dimen>
+    <dimen name="katoukiyomasaButtonH">100dp</dimen>
+    <dimen name="ComHandW">100dp</dimen>
+    <dimen name="ComHandH">100dp</dimen>
+</resources>
